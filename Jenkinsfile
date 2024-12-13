@@ -30,7 +30,7 @@ pipeline {
                 }
             }
             steps{
-                sh '''
+                sh'''
                     Test -f build/index.htlm
                     npm test
                 '''
